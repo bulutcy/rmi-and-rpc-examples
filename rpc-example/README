@@ -1,0 +1,18 @@
+This program is a basic RPC server and client.
+Server respondes incoming "TCP" and "IP" messages as "OK", otherwise as "NO".
+
+Server source code:msg_prog.c
+Client source code:rassignmsg.c
+
+Server executable: msg_server
+Client executable: msg_client
+
+RPCGEN template file: msg.x
+
+Compile command for server: cc msg_proc.c msg_svc.c -o msg_server -lnsl
+Compile command for client: cc rassignmsg.c msg_clnt.c -o msg_client -lnsl
+
+Running server from shell: ./msg_server
+Running client from shell: ./msg_client HOSTNAME  (hostname may be localhost for test, or remote server)
+
+Depending on your configiration, you may have to run with "sudo". Otherwise, they migth not be able to bind port.

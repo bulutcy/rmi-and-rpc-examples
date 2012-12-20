@@ -1,0 +1,7 @@
+Attention! This project is created with Anjuta IDE. So it may have some files that looks strange to you. You can head directly to src/main.c file for code.
+---
+
+This client connects to a server that listens port 9987 and sends user input to server.
+Server ip address and port is hardcoded.
+
+The source file under: src/main.c

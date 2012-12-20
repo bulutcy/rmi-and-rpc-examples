@@ -1,0 +1,2 @@
+Bu server programı 9987 portundan dinleme yapar, TCP ve IP mesaj istekleri gelince, OK yazıp port veya IP numarasını döner.
+Aksi takdirde NO cevabı verir.

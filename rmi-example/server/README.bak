@@ -1,0 +1,4 @@
+This is the server program that listens port 9987.
+If it receives TCP and IP messagei it writes OK and return IP, otherwise, it returns NO
+
+The source file under: src/main.c

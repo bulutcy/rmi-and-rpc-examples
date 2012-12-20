@@ -1,0 +1,5 @@
+
+This client conencts to a server that listens port 9987 and sends user input to server.
+Server ip address and port is hardcoded.
+
+The source file under: src/main.c
