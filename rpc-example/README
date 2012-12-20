@@ -1,4 +1,5 @@
 This program is a basic RPC server and client.
+Since it uses rpc standarts, some of the code is generated using [RPCGEN](http://en.wikipedia.org/wiki/RPCGEN)
 Server respondes incoming "TCP" and "IP" messages as "OK", otherwise as "NO".
 
 Server source code:msg_prog.c
