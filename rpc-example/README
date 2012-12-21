@@ -16,4 +16,4 @@ Compile command for client: cc rassignmsg.c msg_clnt.c -o msg_client -lnsl
 Running server from shell: ./msg_server
 Running client from shell: ./msg_client HOSTNAME  (hostname may be localhost for test, or remote server)
 
-Depending on your configiration, you may have to run with "sudo". Otherwise, they migth not be able to bind port.
+Depending on your configuration, you may have to run with "sudo". Otherwise, they migth not be able to bind port.
